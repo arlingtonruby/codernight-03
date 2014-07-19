@@ -1,0 +1,15 @@
+:default:
+  nested:
+    test_value: "default value"
+  some_array_value:
+    - "First"
+    - "Second"
+    - "Third"
+
+test:
+  nested:
+    test_value: "test value"
+
+development:
+  nested:
+    test_value: "development value"
